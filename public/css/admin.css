@@ -1,0 +1,381 @@
+/* estilos para el backend */
+#divContentPanelPrincipal{
+	height: auto;
+	margin: 0 left;
+	width:100%;
+}
+	#divAnuncioFinalizado{
+		border:1px solid silver;
+		margin-top: 10px;
+		padding: 15px;
+	}
+
+	#divContentPanel, aside, #divContentPanelSolicitantes{
+		background-color: white;
+		display: inline-block;
+		padding: 8px;
+		text-align: left;
+		vertical-align: top;
+		width:76%;
+	}
+
+	#divContentPanel{
+		width:78%;
+	}
+		
+		aside{
+			min-height:300px;
+			height:auto;
+			width: 18%;
+		}
+		
+	
+		#divBtnTabs ul{
+			font-size: 17px;
+			margin-left: 0;
+			margin-bottom: 0;
+		}
+
+			#divBtnTabs ul li{
+				background-color: #F2F2F2;
+				display: inline-block;
+				padding: 10px 20px;
+			}
+			
+
+				.liTabsHover{
+					color:gray;
+					font-weight: bold;
+				}
+
+				.liTabsLink{
+					border: 1px solid silver;
+					color:#BDBDBD;
+				}
+
+
+
+
+		#divContentTabs{
+			background-color: #F2F2F2;
+			padding: 15px;
+			padding-top: 15px;
+		}
+
+		
+
+.divResultAjaxAnunciar{
+	background-color: red;
+	border-radius:3px;
+	color:white;
+	padding: 3px;
+	text-align: center;
+	width:400px;
+	
+}
+
+#divResultAjaxAnunciar{
+	display: none;
+}
+/* estilos para el backend mis anuncios */
+.divMisAnunciosLeft, .divMisAnunciosRight{
+	display:inline-block;
+	vertical-align: top;
+	width:25%;
+}
+
+.divMisAnunciosRight{
+	width:49%;
+}
+
+
+/* estilos para el backend de clientes interesados */
+.imgPropiedades{
+	width:75px;
+	height:65px;
+}
+
+/* estilos para el backend de favoritos */
+
+#divFavoritos{
+	border-bottom:1px dashed gray;
+}
+
+#divFavoritos:hover{
+	background-color:#FAFAFA;
+}
+
+
+.ulFavoritos{
+	
+}
+
+	.ulFavoritos li{
+		display: inline-block;
+		padding: 6px;
+	}
+
+	.ulFavoritos li:nth-child(1){
+		width:auto;
+	}
+
+	.ulFavoritos li:nth-child(2){
+		width:auto;
+	}
+
+	.ulFavoritos li:nth-child(3){
+		width:auto;
+	}
+
+	.ulFavoritos li:nth-child(4){
+		width:auto;
+	}
+	
+		.ulFavoritos li img{
+			height:60px;
+			width:60px;
+		}
+
+/* Estilos para el backend anunciantes y para las tablas (grid) en general*/
+
+.tablaAnunciantes, .tabla{
+	border:1px solid silver; 
+	border-radius: 10px;
+	color:#424242;
+	font-size:12px;
+	margin-top: 0.5em;
+	width:100%;
+}
+
+
+	.tablaAnunciantes th, .tabla th{
+		background-color: #BDBDBD;
+		border: 1px dashed silver;
+		color:#6E6E6E;
+		font-weight: bold;
+	}
+
+	.tablaAnunciantes tr, .tabla tr{
+		border-bottom: 1px dashed silver;
+	}
+
+	
+		tr.resalta:hover{
+			background:  #F2F2F2;;
+		} 
+
+
+		.tablaAnunciantes td, .tabla td{
+			padding: 5px;
+			text-align: center;
+		}
+
+	
+
+.ulOnOff{
+	border: 1px solid #D8D8D8;
+	border-radius: 2px;
+	margin: 0 auto;
+	padding: 0;
+	width:60px;
+
+}
+	.ulOnOff a{
+		color: gray;
+		text-decoration: none;
+	}
+	.ulOnOff li{
+		border-radius: 2px;
+		color: black;
+		display: inline-block;
+
+	}
+
+	.on{
+		background-color: #D8D8D8;
+		border-radius: 2px;
+		padding: 2px;
+	}
+	.on a{
+		color:#fff;
+	}
+
+
+#divAnunciantesSearch a{
+	float: right;
+}
+
+
+
+/* clases */
+.big_title{
+	margin-bottom: 8px;
+}
+
+.imgAvatar{
+	width: 250px;
+	height:200px;
+}
+
+.ajaxSucess{
+	background-color: #04B431;
+	border-radius: 4px;
+	color: white;
+	width:auto;
+}
+
+.ajaxFail{
+	background-color: red;
+	border-radius: 4px;
+	color: white;
+	width:auto;
+}
+
+.radio{
+	background-color: yellow;
+	border: 1px solid black;
+	color:black;
+}
+
+.bannerAside li{
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 7px;
+}
+
+
+/* estilos para backend solicitantes lista ul*/
+ul.tabs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.tabs li {
+  border: gray solid 1px;
+  border-bottom: none;
+  float: left;
+  margin: 0 .25em 0 0;
+  padding: .25em .5em;
+}
+ul.tabs li a {
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul.tabs li.active {
+  background: gray;
+}
+ul.tabs li.active a {
+  color: white;
+}
+.clr {
+  clear: both;
+}
+article {
+  border-top: gray solid 1px;
+  padding: 0 1em;
+}
+
+
+
+/* estilos navigation backend*/
+#contentMenu ul{
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+}
+	#contentMenu ul li{
+		cursor: pointer;
+		display: inline-block;
+		font-size: 14px;
+		padding: 10px;
+		width:auto;
+
+	}
+
+		#contentMenu li:hover{
+			background-color: #6A6868;
+		}
+
+		#contentMenu a{
+			text-decoration: none;
+			color: #fff;
+		}
+
+		.lihover{
+			background-color:#6A6868;
+			color:#404040;
+		}
+
+
+/* paginacion de resultados*/
+.paginacionLeft, .paginacionRight{
+	display:inline-block; 
+	text-align:left;
+	vertical-align:top;
+	width:65%; 
+}
+.paginacionRight{
+	text-align:right; 
+	width:30%; 
+}
+#ulRangosPaginacion, #ulRangosPaginacionFront{
+	margin-bottom:16px; 
+	width:100%;
+}
+
+#ulRangosPaginacionFront{
+	margin-top:5px;
+	text-align: center;
+}
+
+#ulRangosPaginacion li, #ulRangosPaginacionFront li{
+	display: inline-block;
+	width:auto;
+}
+
+
+#ulRangosPaginacion li:nth-child(1){
+	font-size: 14px;
+	width:210px;
+}
+
+	/* tabs solicitantes */
+.ulSolicitantes{
+}
+
+.ulSolicitantes li{
+	display: inline-block;
+}
+
+.ulSolicitantes a{
+	color:white;
+}
+
+
+.liResaltado {
+	background-color: #404040;
+	margin-right: 5px;
+	padding: 6px;
+	border-radius:5px 5px 0px 0px;	
+}
+
+.liNoResaltado {
+	background-color: gray;
+	border-radius:5px 5px 0px 0px;
+	color:white;
+	padding: 6px;
+}
+input textarea {
+width: 100%;
+height: 35px;
+line-height: 1;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+background: #fff;
+}

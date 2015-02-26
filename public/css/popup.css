@@ -1,0 +1,91 @@
+#popup-registro, #popup-login, #popup-cerrar-sesion, #popup-avatar {
+    left: 0;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.content-popup, .content-popup-login, .content-popup-salir, .content-popup-avatar {
+    margin:0px auto;
+    margin-top:100px;
+    position:relative;
+    padding:12px;
+    width:500px;
+    min-height:200px;
+    border-radius:4px;
+    background-color:#FAFAFA;
+    box-shadow: 0 2px 5px #666666;
+    z-index: 20;
+}
+
+.content-popup-login{
+    width:400px;
+}
+
+.content-popup-salir, .content-popup-avatar{
+    width:300px;
+}
+    .content-popup-login #divRecuperaPassword{
+            display:none;
+        }
+
+    .content-popup ul{
+        list-style:none;
+    }
+
+    
+
+.content-popup h2, .content-popup-login h2, .content-popup-salir h2, .content-popup-avatar h2 {
+    color:#48484B;
+    border-bottom: 1px solid #48484B;
+    margin-top: 0;
+    padding-bottom: 4px;
+}
+
+.popup-overlay {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display:none;
+    background-color: #777777;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+}
+
+.divOculto{
+    display:none;
+}
+
+/* oscurecer la pantalla para los popups de registro, login, etc*/
+#oscurecer { /* este es el div inferior, que ocupará toda la ventana */
+    background-color:#000;
+    opacity:0.9;
+    filter:alpha(opacity=90);
+    position: absolute;
+    margin:0;
+    padding: 0;
+    z-index: 20;
+    left: 0;
+    top: 0;
+}
+#botonPassword {
+float: right;
+position: relative;
+top: -15px;
+}
+
+#salir {text-align: center; line-height: 50px;}

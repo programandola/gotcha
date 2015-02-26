@@ -1,0 +1,148 @@
+/* --------------------------------------------------------------
+   PRINTABLE INVOICE STYLESHEET
+-------------------------------------------------------------- */
+
+body,td,input,select {
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #000000;
+}
+.campo_select select {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	width:230px;
+}
+
+
+.btn_cancelar_invoice{
+background:url('images/btn_cancelar.png');
+background-repeat:no-repeat;
+letter-spacing:0px;
+border:0px;
+width:104px;
+color:#FFFFFF;
+font-size:20px;
+font-family: 'AlternateGothic2BTRegular';
+text-align:center;
+text-decoration:none;
+cursor:pointer;
+height:40px;
+}
+
+form {
+    margin: 0px;
+}
+
+a {
+    color: #000000;
+}
+
+#wrapper {
+    width: 600px;
+}
+
+#invoicetoptables {
+    width: 100%;
+    background-color: #cccccc;
+    border-collapse: seperate;
+}
+
+td#invoicecontent {
+    background-color: #ffffff;
+    color: #000000;
+}
+.relleno_invoice {
+height:220px;
+background-image:url('images/invoice_pagada.png');
+background-repeat:no-repeat;
+}
+
+.unpaid {
+    font-size: 16px;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.paid {
+    font-size: 16px;
+    color: #779500;
+    font-weight: bold;
+}
+
+.refunded {
+	text-transform:uppercase;
+	font-size:30px;
+	font-family: 'AlternateGothic2BTRegular';
+	font-weight:normal;
+    color: #224488;
+}
+
+.cancelled {
+	font-size:30px;
+	font-family: 'AlternateGothic2BTRegular';
+	font-weight:normal;
+    color: #cccccc;
+}
+
+.collections {
+	text-transform:uppercase;
+	font-size:30px;
+	font-family: 'AlternateGothic2BTRegular';
+    color: #ffcc00;
+    font-weight: normal;
+}
+
+#invoiceitemstable {
+    width: 100%;
+    background-color: #cccccc;
+    border-collapse: seperate;
+}
+
+td#invoiceitemsheading {
+    background-color: #efefef;
+    color: #000000;
+    text-align: center;
+}
+
+td#invoiceitemsrow {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.creditbox {
+	font-family: 'HelveticaCondensedLight';
+	font-size:16px;
+    border: 1px dashed #cc0000;
+    background-color: #FBEEEB;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    color: #cc0000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ligas_fac{
+font-family: 'Gudea';
+font-size:16px;
+color:#333333;
+text-decoration:none;
+}
+.ligas_fac a:link{
+font-family: 'Gudea';
+font-size:16px;
+color:#333333;
+text-decoration:none;
+}
+.ligas_fac a:visited{
+color:#333333;
+text-decoration:none;
+}
+.ligas_fac a:hover{
+color:#FF0000;
+text-decoration:underline;
+}
+.ligas_fac a:active{
+color:#333333;
+text-decoration:none;
+}
