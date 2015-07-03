@@ -50,7 +50,7 @@
 									<p>Anúnciate</p>
 									<p>Anúnciate</p><p>Anúnciate</p><p>Anúnciate</p><p>Anúnciate</p><p>Anúnciate</p>
 									<p>Anúnciate</p><p>Anúnciate</p><p>Anúnciate</p><p>Anúnciate</p><p>Anúnciate</p>
-									
+									<p>anunciante</p>
 								</div>
 							</div><!-- .widget -->
 						</div><!-- .widget-wrap -->		
