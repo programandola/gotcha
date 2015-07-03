@@ -7,6 +7,7 @@
 			</ul>
 			<select class="tinynav">
 				<option value="#">&nbsp;Selecione una página…</option>
+				<option value="#">&nbsp;Selecione otra página…</option>
 			</select>
 		</div>		
 	</div><!-- .submenu -->	
